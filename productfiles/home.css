@@ -1,0 +1,25 @@
+#navigation,#navigation a{
+    height: 35px;
+    width: auto;
+    text-align: right;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+    border:none;
+}
+#navigation a:hover{
+background-color: rgb(71, 32, 107);
+}
+#maincontainer{
+    margin-top: 20px;
+    padding:100px;
+    height:400px;
+    width: auto;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+#maincontainer{
+    margin: 30px;
+    color:white;
+    background-color: rgb(188, 132, 240);
+    height: max-content;
+    width: max-content;
+    border: 1px solid rgb(226, 222, 222);
+    border-radius: 10px;
+    box-shadow: 2px rgb(175, 169, 185);
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+#nav,#nav a{
+    padding-top:10px;
+    text-align:right;
+    height:30px;
+    width:auto;
+    font-weight: bolder;
+    background-color: rgb(188, 132, 240);
+    color:white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+#nav a:hover{
+background-color: rgb(71, 32, 107);
+}
+.product{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    font-size: medium;
+    color: rgb(188, 132, 240);
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    border-radius: 5px;
+}

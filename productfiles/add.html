@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Adding a new product</title>
+    <link rel="stylesheet" href="add.css">
+    <style>
+        .formelements{
+            margin-left: 0px;
+            padding-right: 10px;
+        }
+        .labels{
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="height:50px;width: auto;background-color: rgb(188, 132, 240);color: white; text-align: center;">Adding a new product</h1>
+    <form action="http://127.0.0.1:8000/addproduct" method="post" style="padding:50px;margin:100px;margin-left:400px; background-color: rgb(188, 132, 240); height: 500px; width:500px;border: 2px; border-radius: 5px; display: flexbox; font-family: Arial, Helvetica, sans-serif ;text-align: center;color: aliceblue;">
+        <h3 style="text-align: center;font-size: 50px;">Product Details</h3>
+        <label for="name" class="labels">Product Name</label>
+        <input type="text" name="productname" class="formelements" id="name" placeholder="Watch"/><br />
+        <label for="price" class="labels">Product price</label>
+        <input type="number" name="productprice" class="formelements" id="price" placeholder="$900"/><br />
+        <label for="description" class="labels">Product Description</label>
+        <input type="text" name="productdesc" class="formelements" id="description" placeholder="A stylish watch for women...."/><br /><br />
+        <button type="submit" class="submitbutton" style="align-self:left;background-color: blueviolet; color: aliceblue;padding: 10px; font-size: large; cursor: pointer;">Add</button>
+        <a href="/"><button type="button" style="align-self:left;background-color: blueviolet; color: aliceblue;padding: 10px; font-size: large; cursor: pointer;">Home</button></a>
+    </form>
+</body>
+</html>

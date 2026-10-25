@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Deleting product</title>
+    <link rel="stylesheet" href="delete.css">
+</head>
+<body><h1 style="background-color: rgb(188, 132, 240);color: white; text-align: center;">Deleting a product</h1>
+    <form action="http://127.0.0.1:8000/deleteproduct" method="post">
+        <label for="productid">Product Id</label>
+        <input type="number" name="id" id="id" placeholder="eg:12..." />
+        <button type="submit" style="background-color: blueviolet; color: white;padding: 3px; margin: 5px; cursor: pointer;">Delete</button>
+    </form>
+</body>
+</html>
